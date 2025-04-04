@@ -1,4 +1,3 @@
--- import_data.sql
 SET client_encoding TO 'UTF8';
 
 -- Derruba tabelas de staging, se existirem
