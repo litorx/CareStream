@@ -1,4 +1,3 @@
-# web_scraper.py
 import os
 import logging
 import requests
