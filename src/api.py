@@ -1,4 +1,3 @@
-# api.py
 from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel
 import csv
@@ -32,7 +31,7 @@ def load_operadoras(csv_path: str) -> None:
     if not os.path.exists(csv_path):
         print(f"Arquivo {csv_path} não encontrado!")
         return
-    # Usa "utf-8-sig" para remover o BOM
+
     with open(csv_path, mode="r", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f, delimiter=';')
         print("Colunas do CSV:", reader.fieldnames)
