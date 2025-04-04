@@ -1,4 +1,3 @@
--- create_tables.sql
 DROP TABLE IF EXISTS demonstracoes_contabeis;
 DROP TABLE IF EXISTS cadastro_operadoras;
 
